@@ -1,0 +1,126 @@
+:root {
+  --main-color: #007bff;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+li {
+  text-decoration: none;
+  cursor: pointer;
+  color: #777;
+}
+p {
+  color: #777;
+}
+svg {
+  color: var(--main-color);
+}
+
+svg .icon {
+  height: 30px;
+}
+
+span {
+  color: var(--main-color);
+}
+/* start logo */
+
+.header {
+  border-bottom: 1px solid #dee2e6;
+}
+
+/* end logo */
+
+.work {
+  color: var(--main-color);
+}
+/* start landing */
+.text {
+  background: #dfeaff;
+}
+
+.pic {
+  width: 50%;
+}
+/* end landing */
+/* start tools*/
+.tools {
+  background: #f2fafb;
+}
+.tailor {
+  color: rgb(16, 86, 166);
+}
+/* end tools*/
+
+/* .platform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+} */
+
+/* .personal {
+  color: var(--main-color);
+} */
+
+/* start contact*/
+.contact {
+  color: var(--main-color);
+}
+
+input[type="text"] {
+  background-color: rgb(236, 241, 242);
+  color: white;
+}
+
+input[type="text"]:hover,
+input[type="text"] {
+  background-color: rgb(236, 241, 242);
+}
+
+input[type="text"]:focus {
+  border: 1px solid rgb(16, 86, 166);
+  background-color: rgb(236, 241, 242);
+}
+
+textarea[type="text"],
+textarea[type="text"]:hover,
+textarea[type="text"]:focus {
+  background-color: rgb(236, 241, 242);
+}
+
+.text-area {
+  resize: none;
+}
+
+/* end contact*/
+/* start footer*/
+.footer {
+  position: relative;
+  width: 100%;
+  /* border-top: solid 1px #777; */
+}
+.footer::after {
+  content: "";
+  position: absolute;
+  border-top: 1px solid #777;
+  height: 1px;
+  width: 85%;
+  left: 7%;
+  top: 0;
+}
+li:hover {
+  color: var(--main-color);
+}
+/* end footer*/
